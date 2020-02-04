@@ -9,10 +9,12 @@ function Header() {
 
   return (
     <div className="App-header">
-
-      <Logo/>
-      <Menu/>
-
+        <div className="App-logo">
+          <Logo/>
+        </div>
+        <p>
+            <Menu/>
+        </p>
     </div>
   );
 }

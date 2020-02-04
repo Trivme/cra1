@@ -7,7 +7,8 @@ function MenuItem() {
 
   return (
     <div className="App-menu-item">
-        <button type="button" onclick="alert('Menu Item')">Menu Item</button>
+
+        <a>Menu Item</a>
     </div>
   );
 }

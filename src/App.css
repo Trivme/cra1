@@ -1,25 +1,70 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  background-color: lightgray;
   display: flex;
   flex-direction: column;
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 120px;
+  width: 120px;
+  display: flex;
+  float:left;
 }
 
 .App-header {
+  min-height:100px;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.App-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  background-color: lightgrey;
+}
+.App-menu-item{
+  height: 60px;
+  width: 100%;
+  border : grey 2px solid;
+  color: darkred;
+  display: flex;
+  justify-content: right;
   align-items: center;
-  justify-content: space-around;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 20px;
+
+}
+.App-footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: start;
+  height: 160px;
+  background-color: lightgrey;
+}
+.Footer-text{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: darkred;
+}
+.App-content{
+  width: 99%;
+  border:15px solid whitesmoke;
+  float: left;
+
+  height: 400px;
+  background: whitesmoke;
+  color: -moz-mac-accentdarkestshadow;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .App-link {
