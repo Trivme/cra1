@@ -12,7 +12,7 @@ function Header() {
         <div className="App-logo">
           <Logo/>
         </div>
-        <p>
+        <p className="App-menu">
             <Menu/>
         </p>
     </div>

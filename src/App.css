@@ -33,7 +33,7 @@
   border : grey 2px solid;
   color: darkred;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   font-weight: bold;
   font-variant: small-caps;
