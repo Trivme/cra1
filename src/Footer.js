@@ -6,14 +6,14 @@ import Logo from "./Logo";
 function Footer() {
 
   return (
-    <div className="App-footer">
-        <div className="App-logo">
+    <footer>
+        <div className="container">
             <Logo/>
+            <div id='footer text' className='Footer-text'>
+                Footer
+            </div>
         </div>
-        <p className="Footer-text">
-            Footer
-        </p>
-    </div>
+    </footer>
   );
 }
 

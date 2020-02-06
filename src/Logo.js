@@ -7,7 +7,7 @@ function Logo() {
 
   return (
     <div>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className='App-logo'/>
     </div>
   );
 }

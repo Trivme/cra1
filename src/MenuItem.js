@@ -4,12 +4,10 @@ import './App.css';
 
 function MenuItem() {
 
-
   return (
-    <div className="App-menu-item">
-
+    <a className='App-menu-item'>
         <a>Menu Item</a>
-    </div>
+    </a>
   );
 }
 

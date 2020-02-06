@@ -7,13 +7,14 @@ function Menu() {
 
 
   return (
-    <div className="App-menu">
-        <MenuItem/>
-        <MenuItem/>
-        <MenuItem/>
-        <MenuItem/>
-
-    </div>
+    <nav className='App-menu'>
+        <ul>
+            <MenuItem/>
+            <MenuItem/>
+            <MenuItem/>
+            <MenuItem/>
+        </ul>
+    </nav>
   );
 }
 

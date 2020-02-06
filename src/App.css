@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
 .App {
   height: 100vh;
   background-color: lightgray;
@@ -5,61 +19,52 @@
   flex-direction: column;
 }
 
+header{
+  background-color: tomato;
+}
+
+footer{
+  background-color: darkkhaki;
+}
+
 .App-logo {
-  pointer-events: none;
   height: 120px;
   width: 120px;
-  display: flex;
+  display: inline-block;
+  padding: 5px;
   float:left;
 }
 
-.App-header {
-  min-height:100px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+.container{
+  max-width: 960px;
+  margin: 0 auto;
 }
+
 .App-menu{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  flex-direction: row;
-  background-color: lightgrey;
+  margin-left: 50px;
+  height: 120px;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+
 }
 .App-menu-item{
-  height: 60px;
-  width: 100%;
-  border : grey 2px solid;
-  color: darkred;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-right: 60px;
+  font-family: Monaco;
+  font-size: 18px;
   font-weight: bold;
-  font-variant: small-caps;
-  font-size: 20px;
 
 }
-.App-footer{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: start;
-  height: 160px;
-  background-color: lightgrey;
-}
+
 .Footer-text{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  color: darkred;
+  text-align: center;
+
 }
 .App-content{
-  width: 99%;
-  border:15px solid whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
   float: left;
-
+  text-indent: 25px;
   height: 400px;
   background: whitesmoke;
   color: -moz-mac-accentdarkestshadow;
@@ -67,9 +72,6 @@
   font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
