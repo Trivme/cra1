@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d3a9eb06-a122-4a59-862d-ca85f328d28e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuItem.js" afterDir="false" />
     </list>
@@ -93,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580579061403</updated>
       <workItem from="1580579063235" duration="1684000" />
-      <workItem from="1580594402598" duration="18713000" />
+      <workItem from="1580594402598" duration="19211000" />
+      <workItem from="1581180828617" duration="3229000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580685747676</created>
@@ -123,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580871323719</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed css">
+      <created>1580962707510</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580962707510</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,17 +135,18 @@
     <MESSAGE value="init project" />
     <MESSAGE value="created header, footer, menu, etc (without" />
     <MESSAGE value="говнище страшное - надо с css разбираться" />
-    <option name="LAST_COMMIT_MESSAGE" value="говнище страшное - надо с css разбираться" />
+    <MESSAGE value="changed css" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="347" y="340" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580958323173">
       <screen x="0" y="23" width="1920" height="1127" />
     </state>
     <state x="347" y="340" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1127@0.23.1920.1127" timestamp="1580958323173" />
-    <state x="200" y="189" key="CommitChangelistDialog2" timestamp="1580871323578">
+    <state x="200" y="189" key="CommitChangelistDialog2" timestamp="1580962707300">
       <screen x="0" y="23" width="1920" height="1127" />
     </state>
-    <state x="200" y="189" key="CommitChangelistDialog2/0.23.1920.1127@0.23.1920.1127" timestamp="1580871323578" />
+    <state x="200" y="189" key="CommitChangelistDialog2/0.23.1920.1127@0.23.1920.1127" timestamp="1580962707300" />
     <state width="1305" height="303" key="GridCell.Tab.0.bottom" timestamp="1580957860300">
       <screen x="0" y="23" width="1920" height="1127" />
     </state>
@@ -164,9 +167,9 @@
     </state>
     <state width="1207" height="217" key="GridCell.Tab.0.right/-1228.207.1228.863/0.23.1920.1177@-1228.207.1228.863" timestamp="1580579431869" />
     <state width="1305" height="303" key="GridCell.Tab.0.right/0.23.1920.1127@0.23.1920.1127" timestamp="1580957860300" />
-    <state x="216" y="326" key="Vcs.Push.Dialog.v2" timestamp="1580871329368">
+    <state x="216" y="326" key="Vcs.Push.Dialog.v2" timestamp="1581187506891">
       <screen x="0" y="23" width="1920" height="1127" />
     </state>
-    <state x="216" y="326" key="Vcs.Push.Dialog.v2/0.23.1920.1127@0.23.1920.1127" timestamp="1580871329368" />
+    <state x="216" y="326" key="Vcs.Push.Dialog.v2/0.23.1920.1127@0.23.1920.1127" timestamp="1581187506891" />
   </component>
 </project>

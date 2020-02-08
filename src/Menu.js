@@ -3,16 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import MenuItem from "./MenuItem";
 
-function Menu() {
+function Menu(props) {
 
 
   return (
     <nav className='App-menu'>
         <ul>
-            <MenuItem/>
-            <MenuItem/>
-            <MenuItem/>
-            <MenuItem/>
+            {props.items.map(el=> <MenuItem key = {el.text} menuItem = {el} />)}
         </ul>
     </nav>
   );

@@ -2,11 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function MenuItem() {
+function MenuItem(props) {
+
+    console.log(props);
 
   return (
     <a className='App-menu-item'>
-        <a>Menu Item</a>
+        <a
+            href={props.menuItem.link}> {props.menuItem.text}
+        </a>
     </a>
   );
 }
