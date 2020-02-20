@@ -5,7 +5,6 @@ import MenuItem from "./MenuItem";
 
 function Menu(props) {
 
-
   return (
     <nav className='App-menu'>
         <ul>

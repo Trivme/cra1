@@ -22,8 +22,6 @@ const items = [{
 ];
 
 function Header() {
-
-
   return (
     <header>
         <div className="container">

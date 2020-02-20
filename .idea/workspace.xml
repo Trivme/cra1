@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d3a9eb06-a122-4a59-862d-ca85f328d28e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -89,6 +93,10 @@
       <workItem from="1580579063235" duration="1684000" />
       <workItem from="1580594402598" duration="19211000" />
       <workItem from="1581180828617" duration="3229000" />
+      <workItem from="1581300060834" duration="333000" />
+      <workItem from="1581788266930" duration="189000" />
+      <workItem from="1581949230539" duration="1399000" />
+      <workItem from="1582150185513" duration="2903000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580685747676</created>
@@ -143,33 +151,41 @@
       <screen x="0" y="23" width="1920" height="1127" />
     </state>
     <state x="347" y="340" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1127@0.23.1920.1127" timestamp="1580958323173" />
-    <state x="200" y="189" key="CommitChangelistDialog2" timestamp="1580962707300">
+    <state x="200" y="189" key="CommitChangelistDialog2" timestamp="1581187535769">
       <screen x="0" y="23" width="1920" height="1127" />
     </state>
-    <state x="200" y="189" key="CommitChangelistDialog2/0.23.1920.1127@0.23.1920.1127" timestamp="1580962707300" />
-    <state width="1305" height="303" key="GridCell.Tab.0.bottom" timestamp="1580957860300">
-      <screen x="0" y="23" width="1920" height="1127" />
+    <state x="200" y="189" key="CommitChangelistDialog2/0.23.1920.1127@0.23.1920.1127" timestamp="1581187535769" />
+    <state width="1417" height="318" key="GridCell.Tab.0.bottom" timestamp="1581984860554">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1207" height="217" key="GridCell.Tab.0.bottom/-1228.207.1228.863/0.23.1920.1177@-1228.207.1228.863" timestamp="1580579431870" />
+    <state width="1417" height="318" key="GridCell.Tab.0.bottom/-3360.23.3360.1816/0.23.1920.1177@0.23.1920.1177" timestamp="1581984860554" />
     <state width="1305" height="303" key="GridCell.Tab.0.bottom/0.23.1920.1127@0.23.1920.1127" timestamp="1580957860300" />
-    <state width="1305" height="303" key="GridCell.Tab.0.center" timestamp="1580957860299">
-      <screen x="0" y="23" width="1920" height="1127" />
+    <state width="1417" height="318" key="GridCell.Tab.0.center" timestamp="1581984860553">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1207" height="217" key="GridCell.Tab.0.center/-1228.207.1228.863/0.23.1920.1177@-1228.207.1228.863" timestamp="1580579431868" />
+    <state width="1417" height="318" key="GridCell.Tab.0.center/-3360.23.3360.1816/0.23.1920.1177@0.23.1920.1177" timestamp="1581984860553" />
     <state width="1305" height="303" key="GridCell.Tab.0.center/0.23.1920.1127@0.23.1920.1127" timestamp="1580957860299" />
-    <state width="1305" height="303" key="GridCell.Tab.0.left" timestamp="1580957860298">
-      <screen x="0" y="23" width="1920" height="1127" />
+    <state width="1417" height="318" key="GridCell.Tab.0.left" timestamp="1581984860552">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1207" height="217" key="GridCell.Tab.0.left/-1228.207.1228.863/0.23.1920.1177@-1228.207.1228.863" timestamp="1580579431867" />
+    <state width="1417" height="318" key="GridCell.Tab.0.left/-3360.23.3360.1816/0.23.1920.1177@0.23.1920.1177" timestamp="1581984860552" />
     <state width="1305" height="303" key="GridCell.Tab.0.left/0.23.1920.1127@0.23.1920.1127" timestamp="1580957860298" />
-    <state width="1305" height="303" key="GridCell.Tab.0.right" timestamp="1580957860300">
-      <screen x="0" y="23" width="1920" height="1127" />
+    <state width="1417" height="318" key="GridCell.Tab.0.right" timestamp="1581984860553">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1207" height="217" key="GridCell.Tab.0.right/-1228.207.1228.863/0.23.1920.1177@-1228.207.1228.863" timestamp="1580579431869" />
+    <state width="1417" height="318" key="GridCell.Tab.0.right/-3360.23.3360.1816/0.23.1920.1177@0.23.1920.1177" timestamp="1581984860553" />
     <state width="1305" height="303" key="GridCell.Tab.0.right/0.23.1920.1127@0.23.1920.1127" timestamp="1580957860300" />
-    <state x="216" y="326" key="Vcs.Push.Dialog.v2" timestamp="1581187506891">
+    <state x="-1424" y="357" key="SettingsEditor" timestamp="1582150310219">
+      <screen x="-3360" y="23" width="3360" height="1816" />
+    </state>
+    <state x="-1424" y="357" key="SettingsEditor/-3360.23.3360.1816/0.23.1680.1027@-3360.23.3360.1816" timestamp="1582150310219" />
+    <state x="216" y="326" key="Vcs.Push.Dialog.v2" timestamp="1581187538138">
       <screen x="0" y="23" width="1920" height="1127" />
     </state>
-    <state x="216" y="326" key="Vcs.Push.Dialog.v2/0.23.1920.1127@0.23.1920.1127" timestamp="1581187506891" />
+    <state x="216" y="326" key="Vcs.Push.Dialog.v2/0.23.1920.1127@0.23.1920.1127" timestamp="1581187538138" />
   </component>
 </project>

@@ -21,6 +21,7 @@ code {
 
 header{
   background-color: tomato;
+  flex-wrap: unset;
 }
 
 footer{
