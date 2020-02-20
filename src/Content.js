@@ -4,12 +4,19 @@ import './App.css';
 
 function Content() {
 
+  function clickButtonHandler(){
+    console.log('Clicked!');
+  }
+
   return (
     <main className="App-content">
       <div className="container">
         <h2>
-          Content
+          First app
         </h2>
+
+        <button onClick={clickButtonHandler}>Add one</button>
+
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

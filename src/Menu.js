@@ -7,9 +7,9 @@ function Menu(props) {
 
   return (
     <nav className='App-menu'>
-        <ul>
-            {props.items.map(el=> <MenuItem key = {el.text} menuItem = {el} />)}
-        </ul>
+      <ul>
+        {props.items.map(el => <MenuItem key={el.text} menuItem={el}/>)}
+      </ul>
     </nav>
   );
 }

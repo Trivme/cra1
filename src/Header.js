@@ -3,30 +3,14 @@ import './App.css';
 import Logo from "./Logo";
 import Menu from "./Menu";
 
-const items = [{
-        text: 'Home',
-        link: 'home-page'
-    },
-    {
-        text: 'Product',
-        link: 'goods'
-    },
-    {
-        text: 'Service',
-        link: 'serv'
-    },
-    {
-        text: 'Contacts',
-        link: 'contacts'
-    }
-];
 
-function Header() {
+
+function Header(props) {
   return (
     <header>
         <div className="container">
             <Logo/>
-            <Menu items = {items}/>
+            <Menu items = {props.menuItems}/>
         </div>
     </header>
   );

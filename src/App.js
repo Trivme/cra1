@@ -5,12 +5,34 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Content from "./Content";
 
-function App() {
+const items = [{
+  text: 'Home',
+  link: 'home-page'
+},
+  {
+    text: 'Product',
+    link: 'goods'
+  },
+  {
+    text: 'Service',
+    link: 'serv'
+  },
+  {
+    text: 'Contacts',
+    link: 'contacts'
+  },
+  {
+    text: 'Orders',
+    link: 'orders'
+  }
+];
+
+function App(props) {
   return (
     <div className="App">
-      <Header/>
+      <Header menuItems = {items}/>
       <Content/>
-      <Footer/>
+      <Footer menuItems = {items}/>
     </div>
   );
 }
